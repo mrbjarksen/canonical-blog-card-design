@@ -1,12 +1,14 @@
 {
   "name": "canonical-blog-card-design",
   "version": "0.1.0",
+  "homepage": "https://mrbjarksen.github.io/canonical-blog-card-design",
   "private": true,
   "dependencies": {
     "@canonical/react-components": "^0.50.5",
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -15,6 +17,8 @@
     "vanilla-framework": "^4.8.0"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject"
