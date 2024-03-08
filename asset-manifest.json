@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/canonical-blog-card-design/static/css/main.cf2c7782.css",
+    "main.js": "/canonical-blog-card-design/static/js/main.3082f65d.js",
+    "index.html": "/canonical-blog-card-design/index.html",
+    "main.cf2c7782.css.map": "/canonical-blog-card-design/static/css/main.cf2c7782.css.map",
+    "main.3082f65d.js.map": "/canonical-blog-card-design/static/js/main.3082f65d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf2c7782.css",
+    "static/js/main.3082f65d.js"
+  ]
+}
